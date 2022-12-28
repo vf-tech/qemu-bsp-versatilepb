@@ -1,0 +1,4 @@
+FROM ubuntu:18.04                                                                                                           
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install git build-essential python diffstat texinfo gawk chrpath dos2unix wget unzip libncurses-dev bc cpio rsync libc6-i386 -y
