@@ -14,9 +14,9 @@ echo $SDKNAME
 echo $SDK_COMMAND
 
 echo "\nRemoving current-sdk archive..."
-rm $BINARIES_DIR/$SDKNAME.tar
+#rm $BINARIES_DIR/$SDKNAME.tar
 
 echo "\nCreating new sdk archive..."
-$SDK_COMMAND
+#$SDK_COMMAND
 
 exit $?
